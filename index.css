@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* Global styles for dark mode */
+body.darkMode {
+  background-color: #1a202c; /* Dark background */
+  color: white; /* Light text */
+}
+
+.darkMode .bg-white {
+  background-color: #2d3748; /* Dark background for specific elements */
+}
+
+.darkMode .text-gray-700 {
+  color: #e2e8f0; /* Light text color */
+}
+
+.darkMode .text-blue-600 {
+  color: #63b3ed; /* Light blue color */
+}
